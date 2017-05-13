@@ -53,7 +53,22 @@
 }
 
 /*TODO: Add CSS for the "article-export" portion of our new page*/
+#article-published {
+  width: auto;
+  margin-right: .3em;
+}
 
+#article-export {
+  color: #D7D7D7;
+  font-size: .6em;
+  font-style: italic;
+  width: 70%;
+  float: right;
+}
+
+#article-export input {
+  border-bottom-color: #D7D7D7;
+}
 
 @media only screen and (min-width: 640px) {
   .icon-menu {
